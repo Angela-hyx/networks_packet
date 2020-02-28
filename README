@@ -1,0 +1,9 @@
+To run sender:
+./sender.sh emulator_hostname emulator_port sender_port file
+e.g. ./sender.sh localhost 10330 10333 tiny.txt
+
+To run receiver:
+./receiver.sh emulator_hostname emulator_port receiver_port file
+e.g. ./receiver.sh localhost 10332 10331 output.txt
+
+The program is written in python, so there is no Makefile.
